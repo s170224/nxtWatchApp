@@ -1,0 +1,113 @@
+/* .leftBanCon {
+  width: 18vw;
+} */
+.trendCon8 {
+  width: 82vw;
+  padding-right: 50px;
+  margin-right: 20px;
+}
+.darkTrendCon4 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100vw;
+  /* width: auto; */
+  /* width: max-content; */
+  background-color: black;
+}
+.lightTrendCon4 {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 100vw;
+  background-color: white;
+}
+.gameDarkIcon4 {
+  background-color: #231f20;
+  color: white;
+  width: 82vw;
+  margin: auto;
+  margin-left: 80px;
+  height: 80px;
+  margin-top: 60px;
+}
+.gameLightIcon4 {
+  background-color: #cccccc;
+  color: #231f20;
+  width: 82vw;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 80px;
+  height: 80px;
+}
+.heading1 {
+  padding-left: 60px;
+}
+
+.iconColor {
+  /* background-color: pink; */
+  color: red;
+  width: 80px;
+  padding-right: 5px;
+  height: 45px;
+  /* margin-top: 10px; */
+  padding-top: 15px;
+}
+@media (max-width: 460px) {
+  .trendCon8 {
+    width: 82vw;
+    /* padding-right: 40px;
+    margin-right: 40px; */
+    margin-top: 0px;
+    margin-left: 90px;
+  }
+  .darkTrendCon4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+  }
+  .lightTrendCon4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: black;
+    background-color: white;
+  }
+  .gameDarkIcon4 {
+    background-color: #231f20;
+    color: white;
+    margin: auto;
+    margin-top: 60px;
+    height: 90px;
+    margin: auto;
+    width: max-content;
+    /* margin-right: 80px; */
+    padding-top: 10px;
+  }
+  .gameLightIcon4 {
+    background-color: #cccccc;
+    color: #231f20;
+    margin: auto;
+    width: max-content;
+    height: 90px;
+    /* margin-right: 80px; */
+    margin-top: 60px;
+    /* padding-top: 10px; */
+  }
+  .heading1 {
+    padding-left: 60px;
+  }
+
+  .iconColor {
+    /* background-color: pink; */
+    color: red;
+    width: 80px;
+    padding-right: 5px;
+    height: 45px;
+    /* margin-top: 10px; */
+    padding-top: 15px;
+  }
+}

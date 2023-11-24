@@ -1,0 +1,186 @@
+.image3 {
+  height: 40px;
+  width: 70px;
+  margin-top: 20px;
+}
+.subscribersCon {
+  display: flex;
+  flex-direction: row;
+}
+.video-container {
+  display: flex;
+  flex-direction: row;
+  /* margin: 20px; */
+}
+.responsive-container {
+  margin: 20px;
+  padding: 20px;
+}
+.eachDarkTheme {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  width: 82vw;
+  height: 120vh;
+}
+.eachLightTheme {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  width: 82vw;
+  height: 120vh;
+}
+.videoImage {
+  height: 600px;
+  /* width: 10px; */
+}
+.isLikeTrue {
+  color: #3b82f6;
+  font-weight: bold;
+  border-style: none;
+  font-size: 20px;
+  margin: 5px;
+  background-color: transparent;
+}
+.isLikeFalse {
+  margin: 5px;
+  font-weight: bold;
+  border-style: none;
+  font-size: 20px;
+}
+.letWidth {
+  width: 18vw;
+}
+.publishCon {
+  display: flex;
+  flex-direction: row;
+}
+.para2 {
+  padding-left: 20px;
+}
+.lickCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* .reactPlayer1 {
+  width: 900px;
+} */
+.products-details-loader-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.isDark1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  font-size: 20px;
+  margin: 5px;
+}
+.isList1 {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  font-size: 20px;
+  margin: 5px;
+}
+.reactPlayer1 {
+  height: 460px;
+}
+@media (max-width: 460px) {
+  .image3 {
+    height: 40px;
+    width: 70px;
+    margin-top: 20px;
+  }
+  .subscribersCon {
+    display: flex;
+    flex-direction: row;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px; */
+  }
+  .responsive-container {
+    margin: 20px;
+    padding: 20px;
+  }
+  .eachDarkTheme {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    width: 82vw;
+    /* height: 92vh; */
+    /* height: 120vh; */
+    height: max-content;
+    margin: auto;
+    margin-left: 110px;
+    margin-top: 50px;
+  }
+  .reactPlayer1 {
+    height: 460px;
+  }
+  .eachLightTheme {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    width: 82vw;
+    height: max-content;
+    /* height: 120vh; */
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 110px;
+  }
+  .videoImage {
+    height: 600px;
+    /* width: 10px; */
+  }
+  .isLikeTrue {
+    color: #3b82f6;
+    font-weight: bold;
+    border-style: none;
+    font-size: 15px;
+    margin: 5px;
+  }
+  .isLikeFalse {
+    margin: 5px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 15px;
+  }
+
+  .publishCon {
+    display: flex;
+    flex-direction: row;
+  }
+  .para2 {
+    padding-left: 20px;
+  }
+  .lickCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* .reactPlayer1 {
+  width: 900px;
+} */
+  .products-details-loader-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .isDark1 {
+    background-color: black;
+    color: white;
+  }
+  .isList1 {
+    background-color: white;
+    color: black;
+  }
+}

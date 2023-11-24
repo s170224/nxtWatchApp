@@ -1,0 +1,197 @@
+.linkContainer {
+  width: 18vw;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 94vh;
+  background-color: #f9f9f9;
+  color: #212121;
+  position: fixed;
+  margin-top: 60px;
+  padding-top: 30px;
+}
+.linkLightCon {
+  width: 18vw;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 94vh;
+  background-color: #181818;
+  color: white;
+  position: fixed;
+  margin-top: 60px;
+  padding-top: 30px;
+}
+.imagelogo1 {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.head1 {
+  color: #00306e;
+  font-size: 20px;
+}
+.darkConHome {
+  color: white;
+  text-decoration: none;
+}
+.lightConHome {
+  color: #212121;
+  text-decoration: none;
+}
+.listHome {
+  list-style-type: none;
+  height: 40px;
+  font-size: 20px;
+  font-style: solid;
+  /* font-weight: 600; */
+}
+.redColor {
+  list-style-type: none;
+  height: 40px;
+  font-size: 20px;
+  font-style: solid;
+  color: red;
+  background-color: green;
+}
+.iCon1 {
+  margin-right: 15px;
+}
+.active-class {
+  color: red;
+  margin-right: 15px;
+  list-style-type: none;
+}
+.listLight {
+  list-style-type: none;
+  margin-right: 15px;
+}
+.active-class1 {
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+}
+.listLight1 {
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+}
+.darkButton1 {
+  background-color: #181818;
+  color: white;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  /* padding-right: 40px; */
+  text-align: left;
+  border-style: none;
+}
+.lightButton1 {
+  background-color: #f9f9f9;
+  color: black;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  /* padding-right: 40px; */
+  text-align: left;
+  border-style: none;
+}
+@media (max-width: 460px) {
+  .linkContainer {
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94vh;
+    background-color: #f9f9f9;
+    color: #212121;
+    position: fixed;
+    margin-top: 60px;
+    padding-top: 30px;
+    /* margin: auto; */
+  }
+  .linkLightCon {
+    width: 150px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 94vh;
+    background-color: #181818;
+    color: white;
+    position: fixed;
+    margin-top: 60px;
+    padding-top: 30px;
+    /* margin: auto; */
+  }
+  .imagelogo1 {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+  }
+  .head1 {
+    color: #00306e;
+    font-size: 20px;
+  }
+  .darkConHome {
+    color: white;
+    text-decoration: none;
+  }
+  .lightConHome {
+    color: #212121;
+    text-decoration: none;
+  }
+  .listHome {
+    list-style-type: none;
+    height: 40px;
+    font-size: 20px;
+    font-style: solid;
+    /* font-weight: 600; */
+  }
+
+  .iCon1 {
+    margin-right: 3px;
+  }
+  .active-class {
+    color: red;
+    margin-right: 5px;
+    list-style-type: none;
+  }
+  .listLight {
+    list-style-type: none;
+    margin-right: 5px;
+  }
+  .active-class1 {
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+  }
+  .listLight1 {
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+  }
+  .darkButton1 {
+    background-color: #181818;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    /* padding-right: 40px; */
+    text-align: left;
+    border-style: none;
+  }
+  .lightButton1 {
+    background-color: #f9f9f9;
+    color: black;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    /* padding-right: 40px; */
+    text-align: left;
+    border-style: none;
+  }
+}

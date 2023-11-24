@@ -1,0 +1,51 @@
+.imageNotFound {
+  width: 400px;
+  height: 500px;
+}
+.con-3 {
+  text-align: center;
+  padding-top: 50px;
+}
+.backgroundDarkContext {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  height: 93vh;
+}
+.backgroundLightCon {
+  background-color: #ebebeb;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  height: 93vh;
+}
+@media (max-width: 460px) {
+  .imageNotFound {
+    width: 250px;
+    height: 300px;
+    margin-top: 60px;
+  }
+  .con-3 {
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    padding-left: 60px;
+  }
+  .backgroundDarkContext {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 140px;
+    height: 93vh;
+  }
+  .backgroundLightCon {
+    background-color: #ebebeb;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    height: 93vh;
+    padding-left: 150px;
+  }
+}

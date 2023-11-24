@@ -1,0 +1,154 @@
+.img1 {
+  height: 50px;
+  width: 150px;
+  margin-left: 100px;
+}
+.container1 {
+  /* text-align: center; */
+  background-color: #ffffff;
+  color: black;
+  height: 400px;
+  width: 450px;
+  /* border-style: solid; */
+  box-shadow: 1px 1px 3px 3px;
+  margin-left: 500px;
+  margin-top: 100px;
+  padding: 50px;
+}
+.darkContainer1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 400px;
+  width: 450px;
+  box-shadow: 1px 1px 3px 3px;
+  margin-left: 500px;
+  margin-top: 100px;
+  padding: 50px;
+}
+.darkContainer {
+  color: white;
+  background-color: #181818;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+}
+.lightContainer {
+  background-color: white;
+  color: black;
+  /* height: 100vh;
+  width: 100vw; */
+}
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh;
+  width: 100vw; */
+}
+.inputC1 {
+  height: 35px;
+  width: 340px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.user1 {
+  color: #475569;
+  font-weight: 600px;
+}
+.button1 {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-weight: 700;
+  width: 340px;
+  height: 40px;
+  margin-left: 3px;
+  margin-top: 10px;
+  border-style: none;
+  border-radius: 12px;
+}
+.errorPara {
+  color: #ff0000;
+  font-weight: 600;
+  padding-left: 15px;
+  font-size: 17px;
+}
+@media (max-width: 460px) {
+  .img1 {
+    height: 30px;
+    width: 100px;
+    /* margin-left: 100px; */
+  }
+  .container1 {
+    /* text-align: center; */
+    background-color: #ffffff;
+    color: black;
+    height: 400px;
+    width: 300px;
+    /* border-style: solid; */
+    box-shadow: 1px 1px 3px 3px;
+    /* margin-left: 500px; */
+    /* margin-top: 100px; */
+    /* padding: 50px; */
+    margin: auto;
+    margin-top: 60px;
+  }
+  .darkContainer1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 400px;
+    width: 300px;
+    box-shadow: 1px 1px 3px 3px;
+    margin: auto;
+    margin-top: 60px;
+    /* padding: 50px; */
+  }
+  .darkContainer {
+    color: white;
+    background-color: #181818;
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+  }
+  .lightContainer {
+    background-color: white;
+    color: black;
+    /* height: 100vh;
+  width: 100vw; */
+  }
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh;
+  width: 100vw; */
+  }
+  .inputC1 {
+    height: 35px;
+    width: 200px;
+    margin-top: 5px;
+    border-style: solid;
+    margin-bottom: 10px;
+  }
+  .user1 {
+    color: #475569;
+    font-weight: 600px;
+  }
+  .button1 {
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: 700;
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    /* margin-left: 3px;
+    margin-top: 10px; */
+    border-style: none;
+    border-radius: 12px;
+  }
+  .errorPara {
+    color: #ff0000;
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: 17px;
+  }
+}

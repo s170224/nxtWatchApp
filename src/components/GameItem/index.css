@@ -1,0 +1,62 @@
+.gameImage {
+  height: 300px;
+  width: 250px;
+}
+
+.eachGameLightCon {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.eachGameDarkCon {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.linkDarkGame {
+  color: white;
+  text-decoration: none;
+}
+.linkLightGame {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 460px) {
+  .gameImage {
+    height: 250px;
+    width: 200px;
+  }
+
+  .eachGameLightCon {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto;
+    padding: 5px;
+    color: black;
+  }
+
+  .eachGameDarkCon {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    color: white;
+    margin: auto;
+    background-color: black;
+  }
+  .linkDarkGame {
+    color: white;
+    text-decoration: none;
+  }
+  .linkLightGame {
+    color: black;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,231 @@
+.logoImage4 {
+  height: 30px;
+  width: 150px;
+}
+.profileCon {
+  height: 30px;
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.popup-container {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-right: 50px;
+}
+.imageTheme {
+  height: 30px;
+  width: 30px;
+}
+.navBar-container {
+  background-color: #181818;
+  color: white;
+  height: 55px;
+  text-align: center;
+  padding-top: 8px;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  overflow-y: none;
+}
+.navbar-Light-Container {
+  background-color: #f4f4f4;
+  /* background-color: red; */
+  color: black;
+  height: 55px;
+  text-align: center;
+  padding-top: 8px;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  overflow-y: none;
+}
+.navCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navContaineer {
+  display: flex;
+  flex-direction: row;
+}
+.lightThemeLog {
+  background-color: #181818;
+  border-style: solid;
+
+  margin-left: 30px;
+  color: white;
+  width: 150px;
+  margin: 5px;
+  height: 35px;
+}
+.darkThemeLog {
+  background-color: #f4f4f4;
+  /* background-color: red; */
+
+  width: 150px;
+  color: #3b82f6;
+  border-color: #3b82f6;
+  margin-left: 30px;
+  margin: 5px;
+  height: 35px;
+}
+.buttonDarkTheme {
+  background-color: #181818;
+  color: white;
+}
+.buttonLightTheme {
+  background-color: #f4f4f4;
+  /* background-color: red; */
+
+  border-style: none;
+}
+.logout1 {
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  margin-right: 10px;
+}
+.popCon {
+  background-color: #231f20;
+  color: white;
+  width: 380px;
+  height: 180px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+@media (max-width: 460px) {
+  .logoImage4 {
+    height: 20px;
+    width: 70px;
+  }
+  .profileCon {
+    height: 20px;
+    width: 30px;
+    margin: auto;
+    /* margin-left: 10px;
+    margin-right: 30px; */
+  }
+  .trigger-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: white;
+    padding: 8px 15px 8px 15px;
+    margin: 8px;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  .popup-container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 20px;
+  }
+  .imageTheme {
+    margin-top: 6px;
+    margin-right: 6px;
+    height: 20px;
+    width: 30px;
+  }
+  .navBar-container {
+    background-color: #181818;
+    color: white;
+    height: 55px;
+    text-align: center;
+    padding-top: 8px;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    overflow-y: none;
+  }
+  .navbar-Light-Container {
+    background-color: #f4f4f4;
+    /* background-color: red; */
+    color: black;
+    height: 55px;
+    text-align: center;
+    padding-top: 8px;
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    overflow-y: none;
+  }
+  .navCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navContaineer {
+    display: flex;
+    flex-direction: row;
+  }
+  .lightThemeLog {
+    background-color: #181818;
+    border-style: solid;
+
+    margin-left: 30px;
+    color: white;
+    width: 100px;
+    margin: 5px;
+    height: 35px;
+  }
+  .darkThemeLog {
+    background-color: #f4f4f4;
+    /* background-color: red; */
+
+    width: 100px;
+    color: #3b82f6;
+    border-color: #3b82f6;
+    margin-left: 30px;
+    margin: 5px;
+    height: 35px;
+  }
+  .buttonDarkTheme {
+    background-color: #181818;
+    color: white;
+  }
+  .buttonLightTheme {
+    background-color: #f4f4f4;
+    /* background-color: red; */
+
+    border-style: none;
+  }
+  .logout1 {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+  }
+  .popCon {
+    background-color: #231f20;
+    color: white;
+    width: 250px;
+    height: 180px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+}

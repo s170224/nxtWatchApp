@@ -1,0 +1,151 @@
+.darkThemCon {
+  background-color: black;
+  color: white;
+  height: max-content;
+}
+.lightThemeCon {
+  background-color: white;
+  color: black;
+}
+.gameDarkIcon1 {
+  background-color: #231f20;
+  color: white;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-left: 100px;
+  height: 130px;
+}
+.gameLightIcon1 {
+  background-color: #ebebeb;
+  color: black;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-left: 100px;
+  height: 130px;
+}
+.containerNoFound {
+  text-align: center;
+  margin-top: 90px;
+  height: 80vh;
+}
+.ulContainer {
+  /* text-align: center; */
+  margin-left: 240px;
+}
+.containerTrade {
+}
+.main-cont1 {
+  display: flex;
+  flex-direction: row;
+}
+.iconColor1 {
+  color: red;
+  width: 80px;
+  padding-right: 5px;
+  height: 45px;
+  /* margin-top: 10px; */
+  padding-top: 15px;
+}
+.darkLinkColor {
+  color: white;
+  text-decoration: none;
+}
+.lightLinkColor {
+  text-decoration: none;
+  color: black;
+}
+/* .sub-con {
+  height: 100vh;
+} */
+
+.trendingImage1 {
+  height: 150px;
+  width: 250px;
+}
+@media (max-width: 460px) {
+  .noVideoImage {
+    height: 200px;
+    width: 150px;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .darkThemCon {
+    background-color: black;
+    color: white;
+    /* width: 82vw; */
+    height: 99vh;
+    /* padding-left: 10px; */
+  }
+  .lightThemeCon {
+    color: black;
+    background-color: white;
+    /* width: 82vw; */
+    height: 90vh;
+    /* padding-left: 10px; */
+  }
+
+  .trendCon {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  .trendingImage1 {
+    height: 100px;
+    width: 130px;
+  }
+  .main-cont1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerTrade {
+    margin: auto;
+    width: 200px;
+    margin-right: 30px;
+  }
+  .containerNoFound {
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    padding-left: 200px;
+    height: 80vh;
+  }
+  .gameDarkIcon1 {
+    background-color: #231f20;
+    color: white;
+    height: 120px;
+    width: max-content;
+    margin-top: 60px;
+  }
+  .gameLightIcon1 {
+    background-color: #cccccc;
+    color: #231f20;
+    width: max-content;
+    height: 120px;
+    margin-top: 60px;
+    text-align: left;
+  }
+  .heading12 {
+    padding-left: 60px;
+    font-size: 18px;
+  }
+
+  .iconColor1 {
+    color: red;
+    width: 80px;
+    padding-right: 5px;
+    height: 45px;
+    /* margin-top: 10px; */
+    padding-top: 15px;
+  }
+  .darkLinkColor {
+    color: white;
+    text-decoration: none;
+  }
+  .lightLinkColor {
+    text-decoration: none;
+    color: black;
+  }
+}

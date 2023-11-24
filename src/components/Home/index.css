@@ -1,0 +1,214 @@
+.imageContainer8 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  /* background-color: red; */
+  /* height: 100vh; */
+  /* width: 60vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 45px;
+  padding: 10px;
+  height: 200px;
+  background-size: cover;
+}
+
+.getButton {
+  height: 40px;
+  width: 200px;
+  border-style: solid;
+  border-color: #0f0f0f;
+  background-color: white;
+  font-size: 20px;
+}
+.videoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.input12 {
+  height: 30px;
+  width: 450px;
+  margin-right: 8px;
+}
+.inputContainer4 {
+  height: 30px;
+  width: 500px;
+  background-color: #f1f1f1;
+  margin-left: 50px;
+}
+.darkInputCon {
+  height: 30px;
+  width: 500px;
+  background-color: black;
+  margin-left: 50px;
+  border-color: #424242;
+}
+.noVideoImage {
+  height: 300px;
+  width: 300px;
+}
+.noResultContainer {
+  text-align: center;
+}
+.retryButton {
+  background-color: #4f46e5;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 4px;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: row;
+  /* margin: 10px; */
+}
+
+.rightContainer {
+  width: 83vw;
+}
+.leftBanCon {
+  width: 18vw;
+}
+
+.lightCon {
+  background-color: white;
+  color: black;
+  padding: 50px;
+}
+.darkCon {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+.fixedContainer {
+  overflow: none;
+}
+.videoScrollCon {
+  /* overflow: scroll; */
+  /* position: fixed; */
+}
+.closeImageButton {
+  margin-right: 100px;
+  height: 40px;
+  width: 50px;
+  border-style: none;
+  background-color: white;
+}
+.products-details-loader-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 460px) {
+  .imageContainer8 {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+    /* background-color: red; */
+    /* height: 100vh; */
+    /* width: 60vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 90px;
+    padding: 10px;
+    height: 150px;
+    background-size: cover;
+  }
+
+  .getButton {
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    border-color: #0f0f0f;
+    background-color: white;
+    font-size: 17px;
+  }
+  .videoContainer {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .input12 {
+    height: 30px;
+    width: 180px;
+    margin-right: 8px;
+  }
+  .inputContainer4 {
+    height: 30px;
+    width: 240px;
+    background-color: #f1f1f1;
+    margin-left: 50px;
+  }
+  .darkInputCon {
+    height: 30px;
+    width: 240px;
+    background-color: black;
+    margin-left: 50px;
+    border-color: #424242;
+  }
+  .noVideoImage {
+    height: 100px;
+    width: 100px;
+  }
+  .noResultContainer {
+    text-align: center;
+  }
+  .retryButton {
+    background-color: #4f46e5;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 4px;
+  }
+  .leftContainer {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+  }
+
+  .rightContainer {
+    width: 300px;
+  }
+  /* .leftBanCon {
+    width: 18vw;
+  } */
+
+  .lightCon {
+    background-color: white;
+    color: black;
+    /* padding: 35px; */
+    margin: auto;
+  }
+  .darkCon {
+    background-color: black;
+    color: white;
+    /* padding: 35px; */
+    margin: auto;
+  }
+  .fixedContainer {
+    overflow: none;
+  }
+  .videoScrollCon {
+    /* overflow: scroll; */
+    /* position: fixed; */
+  }
+  .closeImageButton {
+    margin-right: 100px;
+    height: 40px;
+    width: 50px;
+    border-style: none;
+    background-color: white;
+  }
+  .products-details-loader-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .websiteLogo1 {
+    height: 40px;
+    width: 180px;
+  }
+}
